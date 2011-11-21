@@ -74,11 +74,11 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+		'login' => 'root',
+		'password' => '040rlf09',
+		'database' => 'coolbeanz',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
 	
 	// Construct function is called automatically, and chooses prod or dev
