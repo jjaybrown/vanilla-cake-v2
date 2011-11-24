@@ -73,11 +73,12 @@ class DATABASE_CONFIG {
 	public $development = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+		'host' => '127.0.0.1',
+		'login' => 'root',
+		'password' => '040rlf09',
+		'database' => 'coolbeanz',
 		'prefix' => '',
+		'port' => '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock /var/mysql/mysql.sock'
 		//'encoding' => 'utf8',
 	);
 	
