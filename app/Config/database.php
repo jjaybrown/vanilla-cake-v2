@@ -70,7 +70,7 @@ class DATABASE_CONFIG {
 		//'encoding' => 'utf8',
 	);
 
-	public $development = array(
+	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
@@ -82,7 +82,7 @@ class DATABASE_CONFIG {
 	);
 	
 	// Construct function is called automatically, and chooses prod or dev
-  	function __construct () {   
+  	/*function __construct () {   
     	if(isset($_SERVER['HTTP_HOST'])) {
       		$site_url = strtolower($_SERVER['HTTP_HOST']); 
       		$site_parts = explode('.' , $site_url );
@@ -95,5 +95,5 @@ class DATABASE_CONFIG {
     	} else { // we are likely baking, use our local db
       		$this->default = $this->development;
     	}
-	}
+	}*/
 }
